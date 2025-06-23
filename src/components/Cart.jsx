@@ -142,7 +142,7 @@ const Cart = ({ cart, total, onClose, onRemove, onUpdateQuantity }) => {
                   </div>
                   <div className="flex items-center gap-4 mt-6">
                     <a
-                      href={`https://wa.me/212665002086?text=${encodeURIComponent(whatsappMessage)}`}
+                      href={`https://wa.me/212663274021?text=${encodeURIComponent(whatsappMessage)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className={`w-full btn-primary flex items-center justify-center gap-3 text-lg text-center ${(!customerName || !shippingAddress || !customerPhone) ? 'opacity-50 cursor-not-allowed' : ''}`}
