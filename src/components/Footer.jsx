@@ -100,13 +100,14 @@ const Footer = () => {
                   <MapPin className="w-4 h-4 mr-3" />
                   <span>123 Rue de la Paix, 75001 Paris</span>
                 </div>
-                {/* Location Image */}
-                <div className="mt-4">
-                  <img 
-                    src="/Localisation.png" 
-                    alt="Emplacement sur la carte" 
-                    className="w-full max-w-xs rounded-xl shadow-lg border border-gray-200 mx-auto"
-                  />
+                {/* Location Background Image */}
+                <div
+                  className="mt-4 w-full max-w-xs h-40 rounded-xl shadow-lg border border-gray-200 mx-auto bg-cover bg-center relative"
+                  style={{ backgroundImage: "url('/Localisation.png')" }}
+                  aria-label="Emplacement sur la carte"
+                  role="img"
+                >
+                  <span className="sr-only">Emplacement sur la carte</span>
                 </div>
               </motion.div>
             </div>
