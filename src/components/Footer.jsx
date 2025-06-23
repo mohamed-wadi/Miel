@@ -101,14 +101,24 @@ const Footer = () => {
                   <span>123 Rue de la Paix, 75001 Paris</span>
                 </div>
                 {/* Localisation background behind text */}
-                <div className="relative my-4 w-full max-w-xs mx-auto rounded-xl overflow-hidden shadow-lg border border-gray-200" style={{height: '90px'}}>
+                <div className="relative my-4 w-full max-w-xs mx-auto rounded-xl overflow-hidden shadow-lg border border-gray-200" style={{height: '110px'}}>
+                  {/* Image de fond réelle */}
                   <div
                     className="absolute inset-0 bg-cover bg-center"
-                    style={{ backgroundImage: "url('/Localisation.png')", filter: 'brightness(0.7)' }}
+                    style={{ backgroundImage: "url('/Localisation.png')" }}
                     aria-hidden="true"
                   ></div>
-                  <div className="relative z-10 flex items-center justify-center h-full">
-                    <span className="text-white text-lg font-semibold drop-shadow-lg">تفضل بزيارتنا</span>
+                  {/* Overlay foncé pour lisibilité */}
+                  <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
+                  {/* Texte et lien */}
+                  <div className="relative z-10 flex flex-col items-center justify-center h-full px-2 text-center">
+                    <span className="text-white text-xl font-bold drop-shadow-lg mb-1 flex items-center justify-center">
+                      <svg xmlns='http://www.w3.org/2000/svg' className='w-7 h-7 mr-2' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M12 11c1.104 0 2-.896 2-2s-.896-2-2-2-2 .896-2 2 .896 2 2 2zm0 0c-2.21 0-4 1.79-4 4v1h8v-1c0-2.21-1.79-4-4-4z' /></svg>
+                      تفضل بزيارتنا
+                    </span>
+                    <a href="https://goo.gl/maps/your-location-link" target="_blank" rel="noopener noreferrer" className="text-gray-200 text-sm underline hover:text-white transition">
+                      انقر هنا لعرض موقعنا على خرائط جوجل
+                    </a>
                   </div>
                 </div>
                 {/* Location Background Image */}
