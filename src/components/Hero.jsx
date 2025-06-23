@@ -8,7 +8,7 @@ const Hero = () => {
       id="home" 
       className="relative h-screen flex items-center justify-center text-white overflow-hidden"
       style={{
-        backgroundImage: `url('/1.jpg')`,
+        backgroundImage: `url('/products/عسل خاص/1.jpg')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}

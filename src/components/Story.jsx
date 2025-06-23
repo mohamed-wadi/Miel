@@ -36,7 +36,7 @@ const Story = () => {
             transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}
           >
             <div className="rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
-              <img src="/2.jpeg" alt="نحالون يعملون" className="w-full h-full object-cover"/>
+              <img src="/products/عسل عضوي/2.jpg" alt="نحالون يعملون" className="w-full h-full object-cover"/>
             </div>
           </motion.div>
         </div>
