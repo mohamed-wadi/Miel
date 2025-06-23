@@ -9,7 +9,7 @@ const Story = () => {
   })
 
   return (
-    <section ref={ref} className="py-20 bg-white arabic-pattern">
+    <section id="story" ref={ref} className="py-20 bg-white arabic-pattern">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <motion.div 
@@ -20,7 +20,7 @@ const Story = () => {
           >
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
               من خليتنا إلى بيتكم
-              <span className="block gradient-text">قصتنا مع العسل</span>
+              <span className="block gold-text">قصتنا مع العسل</span>
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               في وادي العسل، نحن أكثر من مجرد منتجين. نحن عائلة من النحالين الشغوفين، ورثنا هذه الحرفة النبيلة عن أجدادنا. كل خلية نحل هي جزء من عائلتنا، وكل قطرة عسل هي ثمرة عمل دؤوب وتفانٍ لا حدود له.

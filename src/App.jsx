@@ -6,7 +6,7 @@ import Hero from './components/Hero'
 import Story from './components/Story'
 import Products from './components/Products'
 import Contact from './components/Contact'
-import Footer from './components/Footer'
+// import Footer from './components/Footer'
 import Cart from './components/Cart'
 import LoadingScreen from './components/LoadingScreen'
 
@@ -77,7 +77,7 @@ function App() {
           <Contact />
         </main>
         
-        <Footer />
+        {/* <Footer /> */}
         
         <AnimatePresence>
           {isCartOpen && (

@@ -124,7 +124,7 @@ const Products = ({ onAddToCart }) => {
             className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6"
           >
             اكتشف رحيقنا
-            <span className="block gradient-text">الاستثنائي</span>
+            <span className="block gold-text">الاستثنائي</span>
           </motion.h2>
           
           <motion.p

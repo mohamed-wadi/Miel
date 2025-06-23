@@ -90,7 +90,7 @@ const Contact = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            تواصل <span className="gradient-text">معنا</span>
+            تواصل <span className="gold-text">معنا</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             هل لديك سؤال أو مشروع؟ فريقنا مستعد لمساعدتك.

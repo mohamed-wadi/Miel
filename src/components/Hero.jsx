@@ -28,7 +28,7 @@ const Hero = () => {
         <motion.h1
           className="text-5xl md:text-7xl lg:text-8xl font-cairo font-extrabold mb-6 leading-tight text-shadow-lg"
         >
-          <span className="gradient-text">وادي العسل</span>
+          <span className="gold-text">وادي العسل</span>
           <span className="block text-3xl md:text-4xl lg:text-5xl mt-4 font-light">
             رحيق المغرب الأصيل
           </span>

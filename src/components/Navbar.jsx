@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import '../gold-text.css'
 import { ShoppingCart, Menu, X, Search, User, Heart } from 'lucide-react'
 
 const Navbar = ({ cartCount, onCartClick }) => {
@@ -15,10 +16,10 @@ const Navbar = ({ cartCount, onCartClick }) => {
   }, [])
 
   const navItems = [
-    { name: 'Accueil', href: '#home' },
-    { name: 'Produits', href: '#products' },
-    { name: 'À propos', href: '#about' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'الرئيسية', href: '#home' },
+    { name: 'المنتجات', href: '#products' },
+    { name: 'من نحن', href: '#story' },
+    { name: 'تواصل معنا', href: '#contact' },
   ]
 
   return (
@@ -38,8 +39,8 @@ const Navbar = ({ cartCount, onCartClick }) => {
             whileHover={{ scale: 1.05 }}
             className="flex-shrink-0"
           >
-            <a href="#home" className="text-2xl font-bold gradient-text">
-              WADI
+            <a href="#home" className="text-2xl font-bold">
+              <span className="gold-text font-arabic text-3xl">وادي العسل</span>
             </a>
           </motion.div>
 
