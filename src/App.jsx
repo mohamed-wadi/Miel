@@ -62,7 +62,7 @@ function App() {
 
   return (
     <div className="overflow-x-hidden">
-      <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 font-cairo">
+      <div className="min-h-screen bg-cover bg-center bg-no-repeat font-cairo" style={{ backgroundImage: 'url(/Localisation.png)' }}>
         <Toaster position="top-right" />
         
         <Navbar 
