@@ -113,7 +113,11 @@ const Footer = () => {
                   {/* Texte et lien */}
                   <div className="relative z-10 flex flex-col items-center justify-center h-full px-2 text-center">
                     <span className="text-white text-xl font-bold drop-shadow-lg mb-1 flex items-center justify-center">
-                      <svg xmlns='http://www.w3.org/2000/svg' className='w-7 h-7 mr-2' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M12 11c1.104 0 2-.896 2-2s-.896-2-2-2-2 .896-2 2 .896 2 2 2zm0 0c-2.21 0-4 1.79-4 4v1h8v-1c0-2.21-1.79-4-4-4z' /></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-7 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M12 17c2.5 0 4.5-2 4.5-4.5S14.5 8 12 8s-4.5 2-4.5 4.5S9.5 17 12 17z" strokeWidth="2"/>
+                        <path d="M12 8V5m0 12v3m7-7h-3m-8 0H5m10.07-4.07l2.12-2.12M6.93 6.93 4.81 4.81" strokeWidth="2"/>
+                        <ellipse cx="12" cy="12.5" rx="2" ry="1" fill="currentColor"/>
+                      </svg>
                       تفضل بزيارتنا
                     </span>
                     <a href="https://goo.gl/maps/your-location-link" target="_blank" rel="noopener noreferrer" className="text-gray-200 text-sm underline hover:text-white transition">
