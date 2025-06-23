@@ -100,6 +100,17 @@ const Footer = () => {
                   <MapPin className="w-4 h-4 mr-3" />
                   <span>123 Rue de la Paix, 75001 Paris</span>
                 </div>
+                {/* Localisation background behind text */}
+                <div className="relative my-4 w-full max-w-xs mx-auto rounded-xl overflow-hidden shadow-lg border border-gray-200" style={{height: '90px'}}>
+                  <div
+                    className="absolute inset-0 bg-cover bg-center"
+                    style={{ backgroundImage: "url('/Localisation.png')", filter: 'brightness(0.7)' }}
+                    aria-hidden="true"
+                  ></div>
+                  <div className="relative z-10 flex items-center justify-center h-full">
+                    <span className="text-white text-lg font-semibold drop-shadow-lg">تفضل بزيارتنا</span>
+                  </div>
+                </div>
                 {/* Location Background Image */}
                 <div
                   className="mt-4 w-full max-w-xs h-40 rounded-xl shadow-lg border border-gray-200 mx-auto bg-cover bg-center relative"
